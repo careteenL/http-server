@@ -18,7 +18,7 @@
     "http-server"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/careteenL/http-server/issues"
   },
