@@ -1,0 +1,33 @@
+{
+  "name": "@careteen/http-server",
+  "version": "0.1.0",
+  "description": "just simple http-server",
+  "main": "index.js",
+  "bin": {
+    "@careteen-http-server": "./bin/www.js",
+    "@careteen-hs": "./bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/http-server.git"
+  },
+  "keywords": [
+    "http-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/careteenL/http-server/issues"
+  },
+  "homepage": "https://github.com/careteenL/http-server#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "ejs": "^2.6.1",
+    "mime": "^2.4.0",
+    "mz": "^2.7.0"
+  }
+}
