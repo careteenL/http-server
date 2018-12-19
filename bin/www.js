@@ -17,7 +17,8 @@ commander.on('--help', _ => {
   console.log('@careteen-http-server')
   console.log('@careteen-hs')
   console.log('@careteen-hs --port 8080')
-  console.log('@careteen-hs --address /tmp')
+  console.log('@careteen-hs --dir /tmp')
+  console.log('@careteen-hs --address 127.0.0.1')
 })
 
 // 将命令行参数传入
